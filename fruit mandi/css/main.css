@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+	text-transform: capitalize;
+	box-sizing: border-box;
+	font-family: 'Noto Nastaliq Urdu', serif;
+	font-family: 'Raleway', sans-serif;
+}
+.nav-link2{
+	color: #fff !important;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18.15px;
+	position: relative;
+}
+.nav-link2:after{
+	content: "";
+	width: 0px;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 100%;
+	transition: .5s all;
+
+
+}
+.nav-link2:hover:after{
+	width: 100% !important;
+
+}
+.form-group{
+	background-color: #DFF2FC;
+}
+.dropdown{
+	margin-left: 5px !important;
+}
+.farmer-account{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.btn-add{
+	color: #fff !important;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24.2px;
+}
